@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23586" started-at="2016-11-26T19:39:09Z" finished-at="2016-11-26T19:39:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23586" started-at="2016-11-26T19:39:09Z" finished-at="2016-11-26T19:39:32Z">
+      <class name="com.automation.facebookPage.FacebookMaven.LoginPageTest">
+        <test-method status="PASS" signature="webDriverInitialization()[pri:0, instance:com.automation.facebookPage.FacebookMaven.LoginPageTest@1e8ab90f]" name="webDriverInitialization" is-config="true" duration-ms="17713" started-at="2016-11-26T14:39:09Z" finished-at="2016-11-26T14:39:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webDriverInitialization -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.automation.facebookPage.FacebookMaven.LoginPageTest@1e8ab90f]" name="login" duration-ms="948" started-at="2016-11-26T14:39:27Z" finished-at="2016-11-26T14:39:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.automation.facebookPage.FacebookMaven.LoginPageTest@1e8ab90f]" name="browserClose" is-config="true" duration-ms="3111" started-at="2016-11-26T14:39:29Z" finished-at="2016-11-26T14:39:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.automation.facebookPage.FacebookMaven.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
