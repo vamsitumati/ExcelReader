@@ -38,13 +38,14 @@ public class WebDriverFactory {
 	@BeforeClass
 	
 	public void webDriverInitialization(){
-		/*System.setProperty("webdriver.chrome.driver", "C://Selenium//chromedriver.exe");
-		driver= new ChromeDriver();*/
-		System.setProperty("webdriver.gecko.driver", "C://Selenium//geckodriver.exe");
-		driver= new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver", "C://Selenium//chromedriver.exe");
+		driver= new ChromeDriver();
+		/*System.setProperty("webdriver.gecko.driver", "C://Selenium//geckodriver.exe");
+		driver= new FirefoxDriver();*/
 		
 		driver.get(FB);
 		driver.manage().window().maximize();
+		driver.navigate().back();
 	}
     
 	@AfterClass
@@ -110,9 +111,6 @@ public class WebDriverFactory {
 		System.out.println(seven);
 		return seven;
 	}
-	public static void screenShot(){
-		
-		
-	}
+	
 
 }
